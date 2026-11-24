@@ -2,7 +2,7 @@
 
 Static site for the Promo Filter Chrome extension, served by GitHub Pages at
 **https://promofree.fuel-up.in** (custom domain in `CNAME`; DNS is a Cloudflare CNAME
-`promofilter` → `sanil011.github.io`, DNS only).
+`promofree` → `sanil011.github.io`, DNS only).
 
 | Page | Path |
 |---|---|
