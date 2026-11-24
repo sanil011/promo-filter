@@ -1,11 +1,13 @@
 # Promo Filter website
 
-Static site for the Promo Filter Chrome extension, served by GitHub Pages.
+Static site for the Promo Filter Chrome extension, served by GitHub Pages at
+**https://promofree.fuel-up.in** (custom domain in `CNAME`; DNS is a Cloudflare CNAME
+`promofilter` → `sanil011.github.io`, DNS only).
 
 | Page | Path |
 |---|---|
 | Landing page | `/` (`index.html`) |
-| Privacy policy (Chrome Web Store + Google OAuth link) | `/privacy/` (`privacy/index.html`) |
+| Privacy policy (Chrome Web Store + Google OAuth link) | `/privacy/` (`privacy/index.html`) → https://promofree.fuel-up.in/privacy/ |
 
 No build step: plain HTML + one stylesheet (`assets/styles.css`, light and dark mode).
 `.nojekyll` tells GitHub Pages to serve the files as they are.
