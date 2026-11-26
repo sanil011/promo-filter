@@ -16,5 +16,8 @@ No build step: plain HTML + one stylesheet (`assets/styles.css`, light and dark 
 
 - **Privacy policy:** edit `privacy/index.html` and change the "Last updated" date. Keep it in sync with
   `PRIVACY.md` in the extension repo.
-- **Store link:** once the extension is published, put its Chrome Web Store URL in the hero button in
-  `index.html` and remove `aria-disabled="true"`.
+- **Store link:** the extension is live at
+  https://chromewebstore.google.com/detail/promofree/gbgbiplhnfpgbeonnlkhojopkonmgaag. It's used by the
+  hero's "Add to Chrome" button and step 1 of "How it works" in `index.html`.
+- **Screenshots:** `assets/screenshot-*.png` are copies of `store-assets/` in the extension repo
+  (1280×800, demo data only). Copy them over again when the store screenshots change.
